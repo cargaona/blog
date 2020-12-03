@@ -1,7 +1,7 @@
 ---
 title: "Funny Games [Review]"
 date: 2020-12-03T18:30:05-03:00
-draft: true
+draft: false
 ---
 ### Yo sé que te gusta. 
 --- 
