@@ -2,4 +2,9 @@ languageCode = "es-ar"
 title = "Carlos Martín Blog"
 theme = "etch"
 
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "/about/"
 
