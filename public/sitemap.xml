@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/cine/portraitofaladyonfire/</loc>
+    <loc>/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/cr%C3%ADtica-portrait-of-a-lady-on-fire/</loc>
   </url>
   
   <url>
@@ -15,7 +20,7 @@
   </url>
   
   <url>
-    <loc>/cine/</loc>
+    <loc>/posts/</loc>
   </url>
   
   <url>
