@@ -1,7 +1,7 @@
 ---
-title: "Kubernetes Operator Concepts"
+title: "[WIP] Kubernetes Operator Concepts"
 date: 2020-07-21T14:42:32-03:00
-draft: true
+draft: false
 ---
 
 My goal with this article is to provide the simplest explanations that I would loved to have when I started reading about this topic. I don't want to write example code, I just want to talk about concepts. 
