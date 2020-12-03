@@ -8,3 +8,10 @@ identifier = "about"
 weight = 200
 url = "/about/"
 
+
+[[menu.main]]
+name = "posts"
+identifier = "posts"
+weight = 200
+url = "/posts"
+
