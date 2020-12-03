@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.charlei.xyz/cine/portraitofaladyonfire/</loc>
+    <loc>/cine/portraitofaladyonfire/</loc>
   </url>
   
   <url>
-    <loc>https://blog.charlei.xyz/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>https://blog.charlei.xyz/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://blog.charlei.xyz/cine/</loc>
+    <loc>/cine/</loc>
   </url>
   
   <url>
-    <loc>https://blog.charlei.xyz/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
