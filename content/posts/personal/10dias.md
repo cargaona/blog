@@ -1,0 +1,37 @@
+---
+title: "[Personal] 10 días"
+---
+
+Antes de viajar en dos aviones, estar súper acalambrado por viajar 17 horas, hablar otro idioma, estar contento por comunicarme bien y frustrarme otras veces cuando no entendía absolutamente nada de lo que me decían y poner por primera vez un pié en otro país luego de volar, ya había pensado en que quería escribir algo así como un diario de viaje, o más bien que quería escribir y publicar cosas durante mi viaje.
+
+Conociéndome sabía que me iba a costar hacerlo más de una vez (incluso una sola vez), pero en su momento, en esas nubes a las que me subía a pensar varias cosas a la vez sin lograr fijar especial atención a ninguna de las cosas que pensaba, pude setear algunas cosas:
+Debía ser en español.
+
+Me paso bastante tiempo del día hablando y pensando en otro idioma y la tentación de escribirlo en inglés para practicar un poco más estuvo sobrevolando el área, pero en algún brote de exageración creí que escribir en español me iba a hacer estar más de mis costumbres. En la misma línea, me traje lecturas con una marcada identidad latinoamericana, como si en 3 meses fuese a enajenarme tan ferozmente(!). El otro motivo noble por el cual publico esto en español es para que más personas puedan leerlo. Al fin y al cabo si publico algo es para que alguien del otro lado pueda leerlo. Y mi círculo, quienes van a leer esto (con suerte) mayormente habla español.
+
+Tenía que animarme a publicar.
+Muchas veces escribí cosas que con el tiempo perdí o siguen dando vueltas por ahí. La vergüenza me tira para atrás y no estar convencido de que lo que estoy contando le pueda interesar a alguien hizo que más de una vez tire todo a la papelera de reciclaje y nunca vea la luz. En esta ocasión siento que por más que no esté super capacitado para hacer un bello anecdotario, tengo algo más interesante para compartir.
+
+De qué quería hablar.
+Si bien voy a hablar bastante de mi, por la sencilla razón de que voy a estar conmigo más que con nadie en todo este viaje, quiero aprovechar que no me vine de vacaciones para tener bastante contacto con la ‘calle’ si es que existe algo parecido por estos lugares. Me gustaría conocer un poco sobre como viven las personas, qué oportunidades tienen, cómo es su realidad, sus costumbres. Me da curiosidad saber cuál es la movida cultural/contracultural en un lugar que no es el mío. Cuáles son sus expresiones artísticas. Cosas que alguien de sociales haría con creces mejor que yo. Voy a dar lo mejor de mí al contarlo. ¯\_(ツ)_/¯.
+
+Terminó el preámbulo.
+Este era un viaje que si bien hace meses que lo esperaba, apareció de un momento al otro. Un día estaba sumergido en mi rutina sin pensar en conocer Las Vegas alguna vez y luego de unas entrevistas de trabajo que salieron demasiado bien para ser reales, empezó a tomar forma este viaje. No mucho más de 3 meses después, casi el tiempo que voy a estar en este lugar trabajando, acá estoy. Mirá Ma! Llegué.
+Si bien tuve espectactivas y fantaseé bastante antes de venir, la verdad que el trabajo me tuvo bastante ocupado como para darme cuenta de la importancia que tiene en mi vida este viaje. Es la primera vez que me alejo tanto. La primera vez que estoy tan lejos de mis conocidos. La primera vez que estoy tanto tiempo afuera. Creo que un poco la idea de ponerme a escribir es darme un tiempo para pensar y pensarme mientras pongo pausa a miles de datos que giran alrededor de mi, formando una especie de huracán del que no puedo terminar de rescatar todo lo que me envuelve para procesarlo.
+
+Estoy seguro de que frases como: “Viajar te hace crecer” o “Viajar te hace conocer a vos mismx” son súper cliché, pero en este párrafo vengo a desarmar mis prejuicios contra ellos. En los pocos días que llevo acá y en los tiempos libres que tuve descubrí cosas que me gusta hacer que no tenía idea. Noté que puedo lidiar con mi aburrimiento sin ponerme de mal humor. No pude escapar tan fácil de él. Me vi en situaciones que no sabía que ‘temía’ y experimenté qué tan real es la necesidad de socializar. No puedo decir que entendí del todo como funcionan esas cosas que acabo de nombrar, pero valoro al menos haberlas notado. Eso es parte conocerse a unx mismo y en base a ese conocimiento unx se construye. Crece.
+…experimenté qué tan real es la necesidad de socializar.
+
+Qué exagerado.
+
+No quiero hablar mucho de la ciudad todavía, hace apenas 10 días que estoy y me la pasé más trabajando que haciendo cualquier otra cosa (salvo dormir, claro). Sin embargo me da la sensación de que no hay demasiado para hacer por acá. Ya tendré tiempo para investigar y encontrar algún antro donde pueda irme solo a ver una banda de jazz y tomarme un whisky, conocer a alguien y quedarme hablando boludeces hasta cualquier hora. Cosas que bien podría hacer en la comodidad de Buenos Aires, pero que la magia de estar de viaje hace más pintorescas.
+
+Algunos fast facts / telocuentoasinomás.
+Van 10 días y todavía no estabilicé mi sueño. Me duermo y me despierto a cualquier hora. Parezco un oso panda de las ojeras que tengo.
+En Las Vegas no se puede vivir sin auto. Salvo en el downtown casi no vi veredas. Las personas no caminan para trasladarse. El transporte público es escaso.
+El súper es un todo por 3usd. Una mermelada, 3usd. Un pack de 12 aguas de 500cc, 3usd. Pan lactal, 3usd.
+Si todo sale bien este finde voy a conocer California con un compañero de trabajo. Va a estar divertido.
+Prometo redactar un poco mejor la próxima.
+
+Adieu.
+
