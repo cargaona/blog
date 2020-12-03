@@ -1,5 +1,5 @@
 languageCode = "es-ar"
-title = "Carlos Martín Blog"
+title = "Carlos Martín"
 theme = "etch"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
@@ -25,6 +25,7 @@ pygmentsUseClasses = true
     title = "about"
     url = "/about/"
     weight = 20
+
 
 [permalinks]
   posts = "/:title/"

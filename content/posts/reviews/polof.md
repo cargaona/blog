@@ -1,7 +1,8 @@
 ---
-title: "[Crítica] Portrait of a Lady on Fire"
+title: "Portrait of a Lady on Fire"
+date: 2020-12-03T13:35:57-03:00
+draft: true
 ---
-
 
 Portrait of a Lady on Fire es un drama ambientado en 1770 en Francia. En sus casi dos horas de duración nos relata la historia de Marianne, una pintora que en el presente dicta clases de arte y de Heloise, la chica en llamas, que va a casarse por arreglo con un miembro de la nobleza. Es la misma Marianne quien nos introduce en el relato de su historia cuando una de sus alumnas le pregunta cómo se llama la obra que están viendo. Ella le responde con el título de la película, estableciendo un potente inicio a la historia. 
 
