@@ -4,6 +4,9 @@ date: 2020-12-03T13:35:57-03:00
 draft: false
 ---
 
+## ¿Cómo se llama la obra?
+---
+
 Portrait of a Lady on Fire es un drama ambientado en 1770 en Francia. En sus casi dos horas de duración nos relata la historia de Marianne, una pintora que en el presente dicta clases de arte y de Heloise, la chica en llamas, que va a casarse por arreglo con un miembro de la nobleza. Es la misma Marianne quien nos introduce en el relato de su historia cuando una de sus alumnas le pregunta cómo se llama la obra que están viendo. Ella le responde con el título de la película, estableciendo un potente inicio a la historia. 
 
 Esta cinta es una película de amor y sobre arte. Pero no es una película de flashes visuales ni tampoco de extensos diálogos. Es una película que utiliza al máximo los pocos elementos que la directora eligió para narrar: Los silencios, las miradas, hasta lo insignificante de algunos diálogos nos cuentan que lo que importa ahí no son las palabras que se dicen, sino lo que están sintiendo los personajes en esa acción. La directora, Céline Sciamma, exprime pocas locaciones y una fotografía carente de llamativos colores en pos de resaltar la trama.
