@@ -1,4 +1,3 @@
-baseURL = "https://blog.charlei.xyz/"
 languageCode = "es-ar"
 title = "Carlos Martín Blog"
 theme = "etch"
