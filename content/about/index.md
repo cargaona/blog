@@ -6,7 +6,7 @@ menu:
 ---
 
 
-I'm a Software Engineer currently working at Etermax. 
+I'm a Software Engineer currently working at MercadoLibre. 
 
 I enjoy computers, music, movies and an endless list of stuff.
 

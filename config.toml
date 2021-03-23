@@ -7,7 +7,7 @@ pygmentsUseClasses = true
 
 [params]
   description = "It's just a blog."
-  copyright = "Copyright © 2020 Carlos Martín"
+  copyright = "Copyright © 2021 Carlos Martín"
   dark = "auto"
   highlight = true
 
