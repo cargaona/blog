@@ -1,26 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Carlos Martín Blog</title>
+    <title>Tags on Carlos Martín</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Carlos Martín Blog</description>
+    <description>Recent content in Tags on Carlos Martín</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
+    <lastBuildDate>Wed, 07 Jul 2021 14:42:32 -0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+    <item>
+      <title>Kubernetes Security Lecture [Spanish]</title>
+      <link>/kubernetes-security-lecture-spanish/</link>
+      <pubDate>Wed, 07 Jul 2021 14:42:32 -0300</pubDate>
+      
+      <guid>/kubernetes-security-lecture-spanish/</guid>
+      <description>Lecture for the &amp;lsquo;Network Security&amp;rsquo; course at UTN.
+Watch on Youtube</description>
+    </item>
+    
     
     
     <item>
-      <title>[Crítica] Portrait of a Lady on Fire</title>
-      <link>/cr%C3%ADtica-portrait-of-a-lady-on-fire/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Funny Games [Review]</title>
+      <link>/funny-games-review/</link>
+      <pubDate>Thu, 03 Dec 2020 18:30:05 -0300</pubDate>
       
-      <guid>/cr%C3%ADtica-portrait-of-a-lady-on-fire/</guid>
-      <description>Portrait of a Lady on Fire es un drama ambientado en 1770 en Francia. En sus casi dos horas de duración nos relata la historia de Marianne, una pintora que en el presente dicta clases de arte y de Heloise, la chica en llamas, que va a casarse por arreglo con un miembro de la nobleza. Es la misma Marianne quien nos introduce en el relato de su historia cuando una de sus alumnas le pregunta cómo se llama la obra que están viendo.</description>
+      <guid>/funny-games-review/</guid>
+      <description>Yo sé que te gusta.  Un matrimonio juega a ver quién es más culto reconociendo piezas de música clásica mientras viajan en su camioneta junto con su hijo quien se sienta detrás. Por el momento venimos muy relajados pero es ahora cuando el más disonante metal progresivo, avant-garde o cosarara irrumpe nuestra calma en un compás indescifrable. Nos hace sufrir, pero no tanto como esta familia o nosotros mismos sufriremos en un rato nada más.</description>
     </item>
+    
+    
+    
+    <item>
+      <title>Portrait of a Lady on Fire [Review]</title>
+      <link>/portrait-of-a-lady-on-fire-review/</link>
+      <pubDate>Thu, 03 Dec 2020 13:35:57 -0300</pubDate>
+      
+      <guid>/portrait-of-a-lady-on-fire-review/</guid>
+      <description>¿Cómo se llama la obra?  Portrait of a Lady on Fire es un drama ambientado en 1770 en Francia. En sus casi dos horas de duración nos relata la historia de Marianne, una pintora que en el presente dicta clases de arte y de Heloise, la chica en llamas, que va a casarse por arreglo con un miembro de la nobleza. Es la misma Marianne quien nos introduce en el relato de su historia cuando una de sus alumnas le pregunta cómo se llama la obra que están viendo.</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Kubernetes Operator Concepts [English]</title>
+      <link>/kubernetes-operator-concepts-english/</link>
+      <pubDate>Tue, 21 Jul 2020 14:42:32 -0300</pubDate>
+      
+      <guid>/kubernetes-operator-concepts-english/</guid>
+      <description>My goal with this article is to provide the simplest explanations that I would loved to have when I started reading about this topic. I don&amp;rsquo;t want to write example code, I just want to talk about concepts.
+ What is an operator btw? Custom Resource Definition. Spec and Status. Reconcile Loop. Finalizers. Garbage Collector and Object Ownership.  What is a Kubernetes Operator by the way?  A Kubernetes Operator is a Controller of a specific application.</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>RSS is the future</title>
+      <link>/rss-is-the-future/</link>
+      <pubDate>Tue, 21 Jul 2020 14:42:32 -0300</pubDate>
+      
+      <guid>/rss-is-the-future/</guid>
+      <description>Social networks were a mistake.
+RSS was the way to go, and probably it still is.
+I should expand more into this soon.</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Volumes on Kubernetes</title>
+      <link>/volumes-on-kubernetes/</link>
+      <pubDate>Tue, 21 Jul 2020 14:42:32 -0300</pubDate>
+      
+      <guid>/volumes-on-kubernetes/</guid>
+      <description>The first things you need to understand from volumes in kubernetes are the following concepts:
+ Persistent volumes (PV) Persistent volumes claim (PVC) Storage Classes  Persistent volumes: The PVs are the volumes you are going to mount to your pod(s). It&amp;rsquo;s an abstraction from the storage you are using. With this object you don&amp;rsquo;t care if you are using EFS, EBS, or even a logic partition in your bare metal server.</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>10 días [Travel Diary Attempt]</title>
+      <link>/10-d%C3%ADas-travel-diary-attempt/</link>
+      <pubDate>Thu, 21 Feb 2019 13:43:29 -0300</pubDate>
+      
+      <guid>/10-d%C3%ADas-travel-diary-attempt/</guid>
+      <description>Antes de viajar en dos aviones, estar súper acalambrado por viajar 17 horas, hablar otro idioma, estar contento por comunicarme bien y frustrarme otras veces cuando no entendía absolutamente nada de lo que me decían y poner por primera vez un pié en otro país luego de volar, ya había pensado en que quería escribir algo así como un diario de viaje, o más bien que quería escribir y publicar cosas durante mi viaje.</description>
+    </item>
+    
+    
     
     
   </channel>

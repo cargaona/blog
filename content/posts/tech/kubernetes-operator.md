@@ -1,5 +1,5 @@
 ---
-title: "[WIP] Kubernetes Operator Concepts"
+title: "Kubernetes Operator Concepts [English]"
 date: 2020-07-21T14:42:32-03:00
 draft: false
 categories: ["tech"]
@@ -14,8 +14,6 @@ My goal with this article is to provide the simplest explanations that I would l
 - Reconcile Loop. 
 - Finalizers.
 - Garbage Collector and Object Ownership.
-- [WIP]Generation counter
-- [WIP]Testing
 
 
 ## What is a Kubernetes Operator by the way?
