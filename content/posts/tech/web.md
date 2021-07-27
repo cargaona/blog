@@ -1,51 +1,20 @@
 ---
-title: "Sobre el RSS y las Redes Sociales"
-date: 2021-07-23T14:42:32-03:00
-draft: true 
+title: "Nostalgia Cibernética [Spanish]"
+date: 2021-07-26T14:42:32-03:00
 categories: ["tech"]
 tags: ["rss"]
 ---
 
-Las redes sociales utilizan los contenidos de los usuarios como combustible
-para generar valor. Esto es una obviedad: sin el contenido de los usuarios, las
-redes sociales no facturarían ni un peso. 
+Antes de las redes sociales estaban los blogs, los rss y los newsletters. El consumo era más caótico, no estaba centralizado en dos o tres grandes plataformas como hoy (Escribo esto en 2021, quizás leas esto en 2040 haciendo limpieza de tu memoria flash cerebral porque necesitás instalar un módulo de karate avanzado que descargaste por torrent a tu sistema operativo corporal porque no querés pagar el servicio en la nube que te permite ser experto en karate por tan solo 0.0005 btc la hora y para ese entonces no existan más dichas plataformas.), aunque había algunas maneras de organizarlo. Era más o menos así: Encontrabas un blog de tu gusto, te suscribías, no entrabas nunca más por el explorador porque Google Reader te iba actualizando y mostrando las nuevas entradas. Con los newsletters, de modo similar, te suscribías y te llegaban a la bandeja de entrada.
 
-No siempre fueron un negocio, o no siempre fue el mismo. Hace 20 años el
-panorama de la autoinformación era muy distinto al actual. 
+Eran épocas _algoritmo free_. Los sistemas de recomendaciones eran los feeds de _links_ o _blogs amigos_ de los blogs que te gustaban. Las publicidades eran mucho menos certeras. Consumir contenido multimedia en internet era mucho más _Elige tu propia aventura_. Hoy en día casi no elegís tu aventura, varias plataformas la eligen por vos. 
 
-Antes de que Facebook o Twitter saltaran a la popularidad, antes de que el lanzamiento del
-iPhone y los smartphones cambiaran la forma en la que usamos Internet, los
-creadores de contenido independiente eran los bloggeros o gente que corría su
-propio sitio. Todo era mucho más artesanal, mucho más boca en boca (incluso
-boca en boca digital, claro). 
+Recuerdo _googlear_ por 2005/2006 y dar con cosas que realmente te servían, o que te daban indicios para mejorar tu siguiente búsqueda y así conseguir lo que buscabas. Por supuesto que esa técnica y muchas otras siguen surtiendo efecto, pero antes había mucho menos contenido, era menos frustrante llegar a lo que uno quería si eso realmente estaba. Muchas veces pienso que aquellos que aprendimos a _googlear_ en aquella época hicimos de eso una gran habilidad. 
 
-Las RRSS le dan al usuario una plataforma para hacer llegar sus
-ideas a otras partes. Eso no es una novedad, es algo que podíamos hacer en
-Internet antes. Estas plataformas sirven como una capa de abstracción a la
-comunicación entre pares (o no tan entre pares) que puede darse en Internet. Hace más sencillo el uso
-de la tecnología para el consumidor final al paso que moldea un usuario más
-pasivo frente a ella: Se crean una cuenta en Twitter y empiezan a _tuitear_.
-Listo. Nada de hostings, nada de blogs, mucho menos customización del propio
-sitio. Los usuarios de redes sociales viven en la comunidad de las herramientas
-que la plataforma le brinda. 
+Los foros tenían muchas más visitas y eran epicentro de muchas comunidades formadas a través de ciertos nichos antes de que Facebook o, quizás antes Reddit, y plataformas similares se los lleven puestos. En esos lugares (sí, lugares, como si fuesen físicos) existía lo que se conocía en el momento como _el forobardo_, users que sólo jodían, molestaban, _trolleaban_ a otros y desvirtuaban posts (bastante actual esto, ¿no? ). Pero muy a menudo había users que compartían mucha sabiduría, alentaban a otros a aprender, que despertaban entusiasmo sobre los temas tratados. 
 
-Las plataformas no tardan en recomendar otros usuarios a quienes seguir,
-grupos a los cuales unirse y así empezar a consumir contenidos de personas con
-contenidos afines al perfil de nuestro user, ni hablar de la publicidad. Esto
-es _el famoso algoritmo_. Por supuesto que cada plataforma tiene su sesgo, o
-sus sesgos. Varias comunidades se conforman en cada una de ellas algunas más
-orgánicamente, otras más moldeadas por lo que las recomendaciones automáticas
-dictan. Así se forman las burbujas en donde se entiende la realidad sólo a través de la
-construcción de la mirada de ese grupo y casi que se ignora la existencia de
-visiones diferentes.
+Por aquellos años (y supongo que varios años antes también pero yo era un feto sin ethernet) usar internet para obtener información distribuida horizontalmente era eso. No había otra manera, quizás podías elegir subirte a un foro o al otro. Podías elegir a qué blogs o a qué newsletters suscribirte. Pero no había vuelta, tenías que arremangarte un poco y empezar a buscar. Los usuarios éramos mucho más activos frente al consumo.
 
-Al llegar a este punto estamos un poco entregados a consumir lo que sea que las
-plataformas recomienden. Aquellos que crean contenido van adaptando sus
-técnicas de publicación y difusión de acuerdo a las heurísticas que
-infirien del funcionamiento del sistema de recomendaciones. 
+Por estos días, y por supuesto hace ya varios años, todo nos llega por arte de magia. Estamos estandarizados, agrupados, usando plataformas que nos catalogan desde antes que nos creemos una cuenta y que ya saben qué ofrecernos para que pasemos más tiempo usándolas. Soy de la idea de que la recomendación constante de contenido a través de estos mecanismos mata lentamente nuestro entusiasmo y nos hace vagos con respecto al descubrimiento o profundización de tópicos que pueden interesarnos. Eso es justo una daga en mi corazón _wanna-be_ polímata. 
 
-Todo esto podría haber sido muy distinto si el RSS seguía reinando como método
-de difusión de contenidos. O quizás no, quizás el RSS fue un eslabón necesario
-en la cadena para que hoy y hace más de 10 años tengamos las redes sociales que
-conocemos. En aquellos años de principios de los 2000 cuando se inventó esta
-herramienta. 
+No es que quiera ser catador de modos de consumo digital. Creo que lo que me pasa es que mi nostalgia cibernética se activa cuando escucho a gente 10 años más joven que yo contarme que es fan de Talking Heads porque escuchó una playlist que le salió en Spotify. Soy un cyborg gritándole a la nube. 
