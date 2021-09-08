@@ -2,6 +2,8 @@
 title: "Volumes on Kubernetes"
 date: 2020-07-21T14:42:32-03:00
 draft: false
+categories: ["tech"]
+tags: ["kubernetes", "devops"]
 ---
 
 

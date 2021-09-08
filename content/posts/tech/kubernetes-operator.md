@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Operator Concepts [English]"
+title: "Kubernetes Operator Concepts"
 date: 2020-07-21T14:42:32-03:00
 draft: false
 categories: ["tech"]

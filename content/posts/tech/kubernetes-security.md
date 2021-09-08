@@ -1,12 +1,12 @@
 ---
-title: "Kubernetes Security Lecture [Spanish]"
+title: "Kubernetes Security Lecture"
 date: 2021-07-07T14:42:32-03:00
 draft: false
 categories: ["tech"]
 tags: ["kubernetes", "devops"]
 ---
 
-Lecture for the 'Network Security' course at UTN. 
+Lecture for the 'Network Security' course at UTN (in Spanish). 
 
 Topics covered:
 - RBAC & Service Accounts 

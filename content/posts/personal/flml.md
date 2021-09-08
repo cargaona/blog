@@ -1,7 +1,9 @@
 ---
-title: "Käes On Aeg [Spanish]"
+title: "Käes On Aeg"
 date: 2021-09-08T00:00:00-00:00
 draft: false
+categories: ["personal"]
+tags: ["music"]
 ---
 
 Ya hace unos años que me hice bastante fan de BADBADNOTGOOD. Unos pibes canadienses que hacen jazz, lo mezclan con rap y graban con raperos como Ghostface Killah o Tyler, The Creator. Tienen bastante de improvisación y hasta juegan con la electrónica. Para el momento en los escuché, venía escuchando bastante Kendrick Lamar. Recién había salido _DAMN._ y yo enloquecí con _To Pimp a Butterfly_, un disco más R&B con bastante influencia del funk y del jazz. Cuando escuché por primera vez BBNG compré de inmediato el combo. 

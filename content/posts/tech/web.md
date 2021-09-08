@@ -1,5 +1,5 @@
 ---
-title: "Nostalgia Cibernética [Spanish]"
+title: "Nostalgia Cibernética"
 date: 2021-07-26T14:42:32-03:00
 categories: ["tech"]
 tags: ["rss"]
