@@ -112,13 +112,13 @@ periódica?.
 
 En la industria automotriz se utilizan protocolos propietarios de comunicación
 para la transmisión de datos entre distíntos módulos computacionales en un
-mismo auto. Si quisieramos reemplazar una transmisión de un automóvil, por
+mismo auto. Si quisiéramos reemplazar una transmisión de un automóvil, por
 poner un ejemplo, y ésta no tiene una ECU compatible, de nada sirve toda esa
 montaña de aluminio y hierro que representa una caja de cambios. No va a
 funcionar. Algo parecido sucede con computadoras personales como las que vende
 Apple. Más allá de que alguien venga a gritarnos que sí, básicamente no se les
 puede cambiar el sistema operativo. ¿Por qué querríamos comprar algo que no nos
-deja utilizarlo como nosotrs queremos?. Y todavía estamos hablando de un automóvil o
+deja utilizarlo como nosotros queremos?. Y todavía estamos hablando de un automóvil o
 de una computadora personal. ¿Comprarías algo así para utilizar en tu cuerpo?,
 ¿Comprarías un set de ojos biónicos si no podés tener el control absoluto sobre
 su funcionamiento? Como te podrás imaginar, yo no. <text
