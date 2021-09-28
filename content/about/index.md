@@ -2,7 +2,7 @@
 title: "About"
 menu:
   main:
-    weight: 20
+    weight: 10
 ---
 
 I’m a dude living in Buenos Aires.
