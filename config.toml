@@ -24,12 +24,6 @@ pygmentsUseClasses = true
     title = "rss"
     url = "/index.xml"
     weight = 10
-  [[menu.main]]
-    identifier = "links"
-    name = "links"
-    title = "links"
-    url = "/links"
-    weight = 10
 
 [permalinks]
   posts = "/:title/"
