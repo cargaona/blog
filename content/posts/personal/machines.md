@@ -11,7 +11,7 @@ draft: false
 </style>
 
 Las máquinas, sean computadoras, automóviles, o cortadoras de pasto, pueden ser
-objetos de apreciación por su belleza. Esta belleza no se halla sólamente en las
+objetos de apreciación por su belleza. Esta belleza no se halla solamente en las
 apariencias: Las máquinas pueden ser bellas por su eficiencia, por la calidad
 de su construcción, por su resistencia, por su complejidad, o incluso por su
 funcionalidad. [^1]
