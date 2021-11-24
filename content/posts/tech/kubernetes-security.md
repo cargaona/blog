@@ -16,5 +16,8 @@ Topics covered:
 - Network Policies 
 - Cluster Hardening
 
-Watch it on [Youtube](https://www.youtube.com/watch?v=Z1PzO8eT_qs&t=1537s)
+ <iframe width="560" height="315"
+ src="https://www.youtube.com/embed/Z1PzO8eT_qs" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

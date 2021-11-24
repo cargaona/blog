@@ -7,7 +7,7 @@ pygmentsUseClasses = true
 
 [params]
   description = "It's just a blog."
-  copyright = "Copyleft - Carlos Martín"
+  copyright = "© Carlos Martín - all articles under Creative Commons CC-BY license"
   dark = "auto"
   highlight = true
 
