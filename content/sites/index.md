@@ -12,4 +12,3 @@ Blogs or sites I follow and recommend.
 - https://rolandoastarita.blog
 - https://michael.stapelberg.ch
 - https://dsminotauro.wordpress.com
-- https://blog.lucascontre.site
