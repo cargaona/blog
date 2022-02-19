@@ -46,7 +46,7 @@ segundos de poner el tema de Twin Peaks me acordé que hace unos años, cada vez
 que comenzaba un episodio de esa serie y sonaba el opening, me remitía a algún
 tema que conocía y nunca pude averiguar cuál era.  
 
-Por suerte esa incógnita de años se resolvió a los 10 segundos de volver a
+Por suerte esa incógnita de años se resolvió poco después de volver a
 escuchar el tema porque me di cuenta que [Memory
 Motel](https://youtu.be/xvEshC4FATU), de The Rolling Stones era mi referencia.
 Y mucho más específico, me suena a la [versión en vivo de Memory Motel del
