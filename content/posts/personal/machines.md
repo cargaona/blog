@@ -2,7 +2,7 @@
 title: "Transhumanismo Tuning"
 date: 2021-09-27T00:00:00-00:00
 categories: ["personal", "transumanismo"]
-draft: false
+draft: true
 ---
 <style>
 .annotation {

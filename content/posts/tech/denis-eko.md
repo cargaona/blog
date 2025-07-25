@@ -1,8 +1,8 @@
 ---
 title: "Denis@EkoParty2021"
 date: 2021-11-23T14:42:32-03:00
-draft: false
 categories: ["tech"]
+draft: true
 ---
 
 Denis is a highly configurable distributed system we created in MercadoLibre.

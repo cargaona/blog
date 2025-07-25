@@ -5,7 +5,7 @@ menu:
     weight: 10
 ---
 
-Ahora vivo en Barcelona y hago cosas con computadoras, con música y con cosas.
+Releí todo lo que tenía acá, me dio vergüenza y lo bajé. 
 
 Find me at: 
 - [LinkedIn](https://www.linkedin.com/in/cargaona/)

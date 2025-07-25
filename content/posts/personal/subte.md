@@ -3,7 +3,7 @@
 title: "Subte"
 date: 2023-02-10T00:00:00-00:00
 categories: ["personal"]
-draft: false
+draft: true
 ---
 
 Vivo pegado a una estación de metro. No puedo dejar de decirle subte. Nunca viví

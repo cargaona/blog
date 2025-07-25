@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes Security Lecture"
 date: 2021-07-07T14:42:32-03:00
-draft: false
+draft: true
 categories: ["tech"]
 tags: ["kubernetes", "devops"]
 ---
