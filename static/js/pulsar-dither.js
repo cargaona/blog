@@ -1,6 +1,7 @@
 (function() {
     'use strict';
 
+    const STORAGE_KEY = 'pulsar-time-offset';
     const canvas = document.createElement('canvas');
     canvas.id = 'pulsar-canvas';
     document.body.appendChild(canvas);
@@ -250,6 +251,7 @@
 
     let lastFrame = 0;
     const fpsInterval = 1000 / 20; // 20fps
+    let timeOffset = parseFloat(sessionStorage.getItem(STORAGE_KEY)) || 0;
 
     function render(timestamp) {
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -271,7 +273,7 @@
         gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);
 
         gl.uniform2f(resolutionLocation, canvas.width, canvas.height);
-        gl.uniform1f(timeLocation, timestamp * 0.001);
+        gl.uniform1f(timeLocation, (timestamp + timeOffset) * 0.001);
         gl.uniform1i(darkLocation, darkMode);
 
         gl.enable(gl.BLEND);
@@ -280,6 +282,7 @@
         gl.clear(gl.COLOR_BUFFER_BIT);
 
         gl.drawArrays(gl.TRIANGLES, 0, 6);
+        sessionStorage.setItem(STORAGE_KEY, timestamp + timeOffset);
 
         requestAnimationFrame(render);
     }
