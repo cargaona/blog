@@ -1,0 +1,64 @@
+{{- $current := .RelPermalink -}}
+<aside class="tree-sidebar">
+<div class="tree-header"><span class="tree-prompt">$</span> tree ~/blog</div>
+<div class="tree-content">
+<span class="tree-folder">├── posts/</span>
+{{- $techPage := $.Site.GetPage "section" "tech" -}}
+{{- if $techPage -}}
+{{- $techPages := $techPage.RegularPages -}}
+{{- if gt (len $techPages) 0 }}
+<span class="tree-folder">│   ├── tech/</span>
+{{- range $idx, $page := $techPages -}}
+{{- $isLast := eq $idx (sub (len $techPages) 1) -}}
+{{- $title := .Title -}}
+{{- if gt (len $title) 20 }}{{- $title = printf "%s..." (substr $title 0 17) -}}{{- end -}}
+{{- $isCurrent := eq $current .RelPermalink }}
+<div class="tree-link{{ if $isCurrent }} current{{ end }}"><a href="{{ .RelPermalink }}"{{ if $isCurrent }} class="current"{{ end }} title="{{ .Title }}"><span class="tree-line">│   │   {{ if $isLast }}└{{ else }}├{{ end }}── </span>{{ $title }}</a></div>
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- $personalPage := $.Site.GetPage "section" "personal" -}}
+{{- if $personalPage -}}
+{{- $personalPages := $personalPage.RegularPages -}}
+{{- if gt (len $personalPages) 0 }}
+<span class="tree-folder">│   └── personal/</span>
+{{- range $idx, $page := $personalPages -}}
+{{- $isLast := eq $idx (sub (len $personalPages) 1) -}}
+{{- $title := .Title -}}
+{{- if gt (len $title) 20 }}{{- $title = printf "%s..." (substr $title 0 17) -}}{{- end -}}
+{{- $isCurrent := eq $current .RelPermalink }}
+<div class="tree-link{{ if $isCurrent }} current{{ end }}"><a href="{{ .RelPermalink }}"{{ if $isCurrent }} class="current"{{ end }} title="{{ .Title }}"><span class="tree-line">│       {{ if $isLast }}└{{ else }}├{{ end }}── </span>{{ $title }}</a></div>
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- $logPages := where $.Site.RegularPages "Section" "log" -}}
+{{- $logPages = sort $logPages "Date" "desc" -}}
+{{- if gt (len $logPages) 0 -}}
+{{- $logPages = first 10 $logPages }}
+<span class="tree-folder">├── log/</span>
+{{- range $idx, $page := $logPages -}}
+{{- $isLast := eq $idx (sub (len $logPages) 1) -}}
+{{- $title := .Title -}}
+{{- if gt (len $title) 20 }}{{- $title = printf "%s..." (substr $title 0 17) -}}{{- end -}}
+{{- $isCurrent := eq $current .RelPermalink }}
+<div class="tree-link{{ if $isCurrent }} current{{ end }}"><a href="{{ .RelPermalink }}"{{ if $isCurrent }} class="current"{{ end }} title="{{ .Title }}"><span class="tree-line">│   {{ if $isLast }}└{{ else }}├{{ end }}── </span>{{ $title }}</a></div>
+{{- end -}}
+{{- end -}}
+{{- $pages := slice -}}
+{{- with $.Site.GetPage "page" "about" -}}
+    {{- $pages = $pages | append . -}}
+{{- end -}}
+{{- with $.Site.GetPage "page" "sites" -}}
+    {{- $pages = $pages | append . -}}
+{{- end -}}
+{{- if gt (len $pages) 0 }}
+<span class="tree-folder">└── pages/</span>
+{{- range $idx, $page := $pages -}}
+{{- $isLast := eq $idx (sub (len $pages) 1) -}}
+{{- $title := .Title -}}
+{{- $isCurrent := eq $current .RelPermalink }}
+<div class="tree-link{{ if $isCurrent }} current{{ end }}"><a href="{{ .RelPermalink }}"{{ if $isCurrent }} class="current"{{ end }} title="{{ .Title }}"><span class="tree-line">    {{ if $isLast }}└{{ else }}├{{ end }}── </span>{{ $title }}</a></div>
+{{- end -}}
+{{- end -}}
+</div>
+</aside>
