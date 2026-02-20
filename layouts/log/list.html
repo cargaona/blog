@@ -4,16 +4,12 @@
 {{ $logs := where .Site.RegularPages "Section" "log" }}
 {{ $sorted := $logs.ByDate.Reverse }}
 {{ range $index, $entry := first 10 $sorted }}
-<article class="log-entry" data-log-path="{{ $entry.Permalink }}">
+<article class="log-entry">
     <div class="log-header">
         <a href="/" class="log-author">@char says:</a>
-        <time class="log-date">{{ $entry.Date.Format "Jan 2, 2006 · 15:04" }}</time>
+        <a href="{{ $entry.Permalink }}" class="log-date-link"><time class="log-date">{{ $entry.Date.Format "Jan 2, 2006 · 15:04" }}</time></a>
     </div>
     {{ $entry.Content }}
-    <div class="log-footer">
-        <button class="log-reply-btn"><span class="reply-icon">💬</span> reply</button>
-    </div>
-    <div class="log-giscus-container" hidden></div>
 </article>
 <hr class="log-divider">
 {{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="log-entry">
+    <div class="log-header">
+        <a href="/" class="log-author">@char says:</a>
+        <time class="log-date">{{ .Date.Format "Jan 2, 2006 · 15:04" }}</time>
+    </div>
+    {{ .Content }}
+</article>
+<hr class="log-divider">
+<div class="log-giscus-container">
+    <script src="https://giscus.app/client.js"
+        data-repo="cargaona/blog"
+        data-repo-id="R_kgDOI8QgZw"
+        data-category="Comments"
+        data-category-id="DIC_kwDOI8QgZ84C22s6"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="https://blog.charlei.xyz/css/giscus-cyber.css"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+    </script>
+</div>
+{{ end }}
