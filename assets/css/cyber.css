@@ -315,71 +315,93 @@ main#content .log-entry img {
     }
 }
 
-/* YouTube Music preview (Telegram-style) */
-.yt-music-preview {
+/* YouTube video preview card */
+.yt-video-preview {
     display: flex;
     align-items: flex-start;
     gap: 1.25rem;
-    margin: 1rem 0;
+    width: 95%;
+    margin: 1rem auto;
     padding: 1rem;
     background: rgba(0, 255, 255, 0.03);
     border: 1px solid rgba(0, 255, 255, 0.15);
     border-left: 3px solid #0ff;
     border-radius: 4px;
-    text-decoration: none;
+    cursor: pointer;
     transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.yt-music-preview:hover {
+.yt-video-preview:hover {
     background: rgba(0, 255, 255, 0.06);
     border-color: rgba(0, 255, 255, 0.3);
     box-shadow: 0 0 12px rgba(0, 255, 255, 0.15);
-    text-decoration: none;
 }
 
-.yt-music-cover {
+.yt-video-preview:focus {
+    outline: 2px solid #0ff;
+    outline-offset: 2px;
+}
+
+.yt-video-preview:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.yt-video-preview:focus-visible {
+    outline: 2px solid #0ff;
+    outline-offset: 2px;
+}
+
+.yt-video-cover {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 112px;
     flex-shrink: 0;
     border-radius: 4px;
     overflow: hidden;
+    background: #000;
 }
 
-.yt-music-cover img {
+.yt-video-cover img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.yt-music-play {
+.yt-video-play {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
     pointer-events: none;
-    transition: color 0.2s ease, text-shadow 0.2s ease;
+    opacity: 0.9;
+    transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.yt-music-preview:hover .yt-music-play {
-    color: #0ff;
-    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+.yt-video-play svg {
+    display: block;
 }
 
-.yt-music-info {
+.yt-video-preview:hover .yt-video-play {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.yt-video-preview:hover .yt-video-play path:first-child {
+    fill: #f00;
+    fill-opacity: 1;
+}
+
+.yt-video-info {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.4rem;
     min-width: 0;
     flex: 1;
-    min-height: 120px;
+    min-height: 112px;
 }
 
-.yt-music-title {
+.yt-video-title {
     font-size: 1em;
     font-weight: 600;
     color: #eee;
@@ -390,15 +412,58 @@ main#content .log-entry img {
     line-height: 1.4;
 }
 
-.yt-music-artist {
+.yt-video-channel {
     font-size: 0.9em;
     color: #0ff;
 }
 
-.yt-music-source {
+.yt-video-source {
     font-size: 0.8em;
     color: #666;
     margin-top: auto;
+}
+
+/* Playing state - video is embedded */
+.yt-video-preview.yt-video-playing {
+    display: block;
+    padding: 0;
+    cursor: default;
+    background: #000;
+    border-left-width: 1px;
+}
+
+.yt-video-iframe-wrap {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.yt-video-iframe-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 500px) {
+    .yt-video-preview:not(.yt-video-playing) {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .yt-video-cover {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+    
+    .yt-video-info {
+        min-height: auto;
+    }
 }
 
 /* Giscus container */

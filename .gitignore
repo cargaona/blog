@@ -6,3 +6,4 @@ bot/*.service
 bot/public/
 bot/resources/
 bot/.hugo_build.lock
+public/
