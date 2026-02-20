@@ -203,6 +203,48 @@ hr.log-divider {
     color: #444;
 }
 
+/* Log image card styling */
+main#content .log-entry img {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 255, 255, 0.15);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+}
+
+.log-entry img:hover {
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.3), 0 0 24px rgba(0, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Lightbox overlay */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.92);
+    display: none;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
 /* YouTube Music preview (Telegram-style) */
 .yt-music-preview {
     display: flex;
