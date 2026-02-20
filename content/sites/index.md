@@ -1,8 +1,5 @@
 ---
 title: "Sites"
-menu:
-  main:
-    weight: 20
 ---
 
 Blogs or sites I follow and recommend. 
