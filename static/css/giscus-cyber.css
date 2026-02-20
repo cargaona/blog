@@ -9,6 +9,8 @@
 main {
     /* Typography */
     font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    line-height: 1.6;
 
     /* Syntax highlighting - keep dark defaults */
     --color-prettylights-syntax-comment: #768390;
@@ -197,4 +199,58 @@ main input:focus {
 /* Timeline connector */
 .gsc-timeline {
     border-left-color: rgba(0, 255, 255, 0.1) !important;
+}
+
+/* Comment sizing and spacing */
+.gsc-comment {
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.gsc-comment-content {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+}
+
+.gsc-comment-content p {
+    margin: 0.5rem 0 !important;
+}
+
+.gsc-comment-author-link {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.gsc-comment-author-link:hover {
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+}
+
+/* Timestamp */
+.gsc-comment-header time,
+.gsc-reply-header time {
+    font-size: 13px !important;
+    color: #888 !important;
+}
+
+/* Comment box / textarea */
+.gsc-comment-box-textarea {
+    min-height: 100px !important;
+    font-size: 15px !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    line-height: 1.5 !important;
+}
+
+/* Reply box */
+.gsc-reply-box {
+    padding: 0.75rem !important;
+}
+
+/* Header with comment count */
+.gsc-comments-count {
+    font-size: 14px !important;
+}
+
+/* Main container padding */
+.gsc-main {
+    padding: 0.5rem 0 !important;
 }
