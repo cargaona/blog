@@ -5,9 +5,13 @@ menu:
     weight: 10
 ---
 
+Algunas noches soy más cibernauta. 
 
-Find me at: 
+Me podrías encontrar en 
 - [GitHub](https://github.com/cargaona)
 
-Use [RSS](/index.xml)! 
-In case you want to read my logs, [RSS Logs](/logs/index.html)
+Usá [RSS](/index.xml)! 
+
+Algunas otras noches uso esto como si fuese tuiter: [RSS Logs](/logs/index.html)
+
+EOF
