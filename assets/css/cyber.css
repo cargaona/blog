@@ -252,13 +252,13 @@ hr.log-divider {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.4rem 0.75rem;
     background: transparent;
     border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 3px;
     color: #888;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.85rem;
+    font-size: 1rem;
     cursor: pointer;
     transition: color 0.2s ease, border-color 0.2s ease, text-shadow 0.2s ease;
 }
@@ -305,7 +305,7 @@ hr.log-divider {
 .log-reply-author {
     color: #0ff;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-decoration: none;
     transition: text-shadow 0.2s ease;
 }
@@ -316,8 +316,8 @@ hr.log-divider {
 
 .log-reply-body {
     margin: 0.5rem 0;
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .log-reply-body p {
@@ -326,7 +326,7 @@ hr.log-divider {
 
 .log-reply-date {
     color: #888;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
 }
 
 /* Giscus accordion container */
