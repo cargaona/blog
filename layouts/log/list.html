@@ -4,11 +4,9 @@
 {{ $sorted := $logs.ByDate.Reverse }}
 {{ range $index, $entry := first 10 $sorted }}
 <article class="log-entry">
-    <header>
-        <span class="log-title">{{ $entry.Title }}</span>
-        <time>{{ $entry.Date.Format "Jan 2, 2006 · 15:04" }}</time>
-    </header>
+    <a href="/" class="log-author">@char</a>
     {{ $entry.Content }}
+    <time class="log-date">{{ $entry.Date.Format "Jan 2, 2006 · 15:04" }}</time>
 </article>
 {{ if lt $index 9 }}<hr class="log-divider">{{ end }}
 {{ end }}
