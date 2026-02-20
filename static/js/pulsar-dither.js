@@ -151,16 +151,15 @@
             float combined = mix(blob, blob2, 0.4);
             
             // Dithering - creates the stippled gradient effect
-            // Scale down coordinates for chunkier/larger dither dots
-            float dither = dither8x8(gl_FragCoord.xy * 0.4);
+            float dither = dither8x8(gl_FragCoord.xy);
             float dithered = combined > dither ? 1.0 : 0.0;
             
             // Colors
             float isDark = float(u_dark);
             vec3 fg = mix(vec3(0.15, 0.15, 0.18), vec3(0.9, 0.9, 0.95), isDark);
             
-            // Output with more visible alpha
-            float alpha = dithered * 0.22;
+            // Output with subtle alpha
+            float alpha = dithered * 0.12;
             
             gl_FragColor = vec4(fg * dithered, alpha);
         }
