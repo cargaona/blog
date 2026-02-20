@@ -10,6 +10,7 @@ pygmentsUseClasses = true
   copyright = "© Carlos Martín - all articles under Creative Commons CC-BY license"
   dark = "auto"
   highlight = true
+  mainSections = ["posts"]
 
 [menu]
   [[menu.main]]
@@ -24,9 +25,16 @@ pygmentsUseClasses = true
     title = "rss"
     url = "/index.xml"
     weight = 2
+  [[menu.main]]
+    identifier = "log"
+    name = "log"
+    title = "log"
+    url = "/log/"
+    weight = 3
 
 [permalinks]
   posts = "/:title/"
+  log = "/log/:filename/"
 
 [markup.goldmark.renderer]
   # Allows HTML in Markdown
