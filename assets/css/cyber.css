@@ -246,7 +246,7 @@ hr.log-divider {
 }
 
 .yt-music-title {
-    font-size: 18px !important;
+    font-size: 1em;
     font-weight: 600;
     color: #eee;
     display: -webkit-box;
@@ -257,12 +257,12 @@ hr.log-divider {
 }
 
 .yt-music-artist {
-    font-size: 16px !important;
+    font-size: 0.9em;
     color: #0ff;
 }
 
 .yt-music-source {
-    font-size: 14px !important;
+    font-size: 0.8em;
     color: #666;
     margin-top: auto;
 }
