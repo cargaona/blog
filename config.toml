@@ -30,7 +30,7 @@ pygmentsUseClasses = true
     weight = 3
 
 [permalinks]
-  posts = "/:title/"
+  posts = "/:slug/"
   log = "/log/:contentbasename/"
 
 [markup.goldmark.renderer]
