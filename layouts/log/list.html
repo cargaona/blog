@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h3>Log</h3>
+<p class="log-subscribe-hint">subscribe via <a href="/log/index.xml">rss</a> <a href="/what-is-rss/">[?]</a></p>
 <hr class="log-divider">
 {{ $logs := where .Site.RegularPages "Section" "log" }}
 {{ $paginator := .Paginate ($logs.ByDate.Reverse) }}

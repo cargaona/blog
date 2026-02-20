@@ -44,6 +44,11 @@ header#banner nav ul li a:hover {
     text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
 }
 
+header#banner nav ul li a.active {
+    color: #0ff;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
+}
+
 /* Site title */
 header#banner a {
     transition: text-shadow 0.2s ease;
@@ -150,6 +155,23 @@ body::before {
 
 .log-author:hover {
     text-shadow: 0 0 8px rgba(0, 255, 255, 0.6), 0 0 16px rgba(0, 255, 255, 0.3);
+}
+
+.log-subscribe-hint {
+    font-size: 0.85em;
+    color: #666;
+    margin: 0.5rem 0 0 0;
+    text-align: right;
+}
+
+.log-subscribe-hint a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.log-subscribe-hint a:hover {
+    color: #0ff;
 }
 
 .log-entry p {
