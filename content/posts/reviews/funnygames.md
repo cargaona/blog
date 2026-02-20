@@ -3,7 +3,7 @@ title: "Funny Games [Review]"
 date: 2020-12-03T18:30:05-03:00
 categories: ["movies"]
 tags: ["Haneke"]
-draft: true
+# draft: true
 ---
 ### Yo sé que te gusta. 
 --- 
