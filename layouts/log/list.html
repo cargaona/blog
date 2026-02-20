@@ -1,13 +1,15 @@
 {{ define "main" }}
 <h3>Log</h3>
-<ul id="posts">
-{{- range where .Site.RegularPages "Section" "log" }}
-    <li>
-        <a href="{{ .Permalink }}">
-            {{ .Title }}
-            <small><time>{{ .Date.Format "Jan 2, 2006" }}</time></small>
-        </a>
-    </li>
-{{- end }}
-</ul>
+{{ $logs := where .Site.RegularPages "Section" "log" }}
+{{ $sorted := $logs.ByDate.Reverse }}
+{{ range $index, $entry := first 10 $sorted }}
+<article class="log-entry">
+    <header>
+        <span class="log-title">{{ $entry.Title }}</span>
+        <time>{{ $entry.Date.Format "Jan 2, 2006 · 15:04" }}</time>
+    </header>
+    {{ $entry.Content }}
+</article>
+{{ if lt $index 9 }}<hr class="log-divider">{{ end }}
+{{ end }}
 {{ end }}

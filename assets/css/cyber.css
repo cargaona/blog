@@ -128,3 +128,33 @@ body::before {
     background: rgba(0, 255, 255, 0.3);
     color: #fff;
 }
+
+/* Log feed styling */
+.log-entry {
+    margin-bottom: 1.5rem;
+}
+
+.log-entry header {
+    margin-bottom: 0.5rem;
+}
+
+.log-entry .log-title {
+    color: #0ff;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.log-entry time {
+    color: #888;
+    font-size: 0.85em;
+}
+
+.log-entry p {
+    margin-top: 0.5rem;
+}
+
+hr.log-divider {
+    border: none;
+    border-top: 1px solid rgba(0, 255, 255, 0.15);
+    margin: 2rem 0;
+}
