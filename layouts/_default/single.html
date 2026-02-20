@@ -8,6 +8,7 @@
     </header>
     {{- .Content -}}
 </article>
+{{ if isset .Params "date" }}
 <hr class="log-divider">
 <div class="log-giscus-container">
     <script src="https://giscus.app/client.js"
@@ -26,4 +27,5 @@
         async>
     </script>
 </div>
+{{ end }}
 {{ end }}
