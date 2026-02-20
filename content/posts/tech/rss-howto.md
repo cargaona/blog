@@ -3,6 +3,7 @@ title: "Cómo me suscribo con RSS?"
 date: 2026-02-20T18:00:00+00:00
 categories: ["tech"]
 tags: ["rss"]
+slug: "what-is-rss"
 build:
   list: never
   render: always
