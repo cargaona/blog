@@ -3,7 +3,7 @@ title: "Nostalgia Cibernética"
 date: 2021-07-26T14:42:32-03:00
 categories: ["tech"]
 tags: ["rss"]
-draft: true 
+# draft: true 
 ---
 
 Antes de las redes sociales estaban los blogs, los rss y los newsletters. El consumo era más caótico, no estaba

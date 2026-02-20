@@ -2,7 +2,7 @@
 title: "Memories of Falling"
 date: 2022-02-19T00:00:00-00:00
 categories: ["personal", "tech"]
-draft: true
+# draft: true
 ---
 
 Hoy estoy cansado. Me duelen las piernas. Ya no tengo 20. Tengo algo que se
