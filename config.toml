@@ -20,12 +20,6 @@ pygmentsUseClasses = true
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "rss"
-    name = "rss"
-    title = "rss"
-    url = "/index.xml"
-    weight = 2
-  [[menu.main]]
     identifier = "log"
     name = "log"
     title = "log"
