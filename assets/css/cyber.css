@@ -131,15 +131,20 @@ body::before {
 
 /* Log feed styling */
 .log-entry {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
+}
+
+.log-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 .log-author {
-    display: block;
     color: #0ff;
     font-weight: 700;
     text-decoration: none;
-    margin-bottom: 0.3rem;
     transition: text-shadow 0.2s ease;
 }
 
@@ -152,15 +157,12 @@ body::before {
 }
 
 .log-date {
-    display: block;
-    text-align: right;
     color: #888;
     font-size: 0.85em;
-    margin-top: 0.5rem;
 }
 
 hr.log-divider {
     border: none;
     border-top: 1px solid rgba(0, 255, 255, 0.15);
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
