@@ -1,6 +1,9 @@
 languageCode = "es-ar"
 title = "Carlos Martín"
 theme = "etch"
+
+[pagination]
+  pagerSize = 10
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -28,7 +31,7 @@ pygmentsUseClasses = true
 
 [permalinks]
   posts = "/:title/"
-  log = "/log/:filename/"
+  log = "/log/:contentbasename/"
 
 [markup.goldmark.renderer]
   # Allows HTML in Markdown

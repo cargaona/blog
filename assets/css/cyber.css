@@ -181,6 +181,28 @@ hr.log-divider {
     margin: 1.5rem 0;
 }
 
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.pagination-link {
+    color: #0ff;
+    text-decoration: none;
+    transition: text-shadow 0.2s ease;
+}
+
+.pagination-link:hover {
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.6), 0 0 16px rgba(0, 255, 255, 0.3);
+}
+
+.pagination-disabled {
+    color: #444;
+}
+
 /* YouTube Music preview (Telegram-style) */
 .yt-music-preview {
     display: flex;

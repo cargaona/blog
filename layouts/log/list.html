@@ -2,15 +2,29 @@
 <h3>Log</h3>
 <hr class="log-divider">
 {{ $logs := where .Site.RegularPages "Section" "log" }}
-{{ $sorted := $logs.ByDate.Reverse }}
-{{ range $index, $entry := first 10 $sorted }}
+{{ $paginator := .Paginate ($logs.ByDate.Reverse) }}
+{{ range $paginator.Pages }}
 <article class="log-entry">
     <div class="log-header">
         <a href="/" class="log-author">@char says:</a>
-        <a href="{{ $entry.Permalink }}" class="log-date-link"><time class="log-date">{{ $entry.Date.Format "Jan 2, 2006 · 15:04" }}</time></a>
+        <a href="{{ .Permalink }}" class="log-date-link"><time class="log-date">{{ .Date.Format "Jan 2, 2006 · 15:04" }}</time></a>
     </div>
-    {{ $entry.Content }}
+    {{ .Content }}
 </article>
 <hr class="log-divider">
+{{ end }}
+{{ if or $paginator.HasPrev $paginator.HasNext }}
+<nav class="pagination">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="pagination-link pagination-prev">&larr; newer</a>
+    {{ else }}
+    <span class="pagination-link pagination-disabled">&larr; newer</span>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="pagination-link pagination-next">older &rarr;</a>
+    {{ else }}
+    <span class="pagination-link pagination-disabled">older &rarr;</span>
+    {{ end }}
+</nav>
 {{ end }}
 {{ end }}
