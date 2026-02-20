@@ -184,10 +184,10 @@ hr.log-divider {
 /* YouTube Music preview (Telegram-style) */
 .yt-music-preview {
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin: 0.75rem 0;
-    padding: 0.75rem;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin: 1rem 0;
+    padding: 1rem;
     background: rgba(0, 255, 255, 0.03);
     border: 1px solid rgba(0, 255, 255, 0.15);
     border-left: 3px solid #0ff;
@@ -205,8 +205,8 @@ hr.log-divider {
 
 .yt-music-cover {
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     flex-shrink: 0;
     border-radius: 4px;
     overflow: hidden;
@@ -224,7 +224,7 @@ hr.log-divider {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgba(255, 255, 255, 0.9);
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
     pointer-events: none;
@@ -239,22 +239,32 @@ hr.log-divider {
 .yt-music-info {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.5rem;
     min-width: 0;
+    flex: 1;
+    min-height: 120px;
 }
 
 .yt-music-title {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #eee;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
+    line-height: 1.4;
 }
 
 .yt-music-artist {
-    font-size: 0.85rem;
+    font-size: 1rem;
     color: #0ff;
+}
+
+.yt-music-source {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: auto;
 }
 
 /* Giscus container */
