@@ -10,6 +10,6 @@ Algunas noches soy más cibernauta.
 - [GPG](https://gpg.charlei.xyz/)
 - [GitHub](https://github.com/cargaona)
 - [RSS](/index.xml) 
-- [RSS Logs](/logs/index.html)
+- [RSS Logs](/log/index.html)
 
 EOF
